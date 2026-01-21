@@ -1,0 +1,1 @@
+API_KEY = "your-dashscope-api-key" # 这里用的embedding模型的api_key是来自于阿里云的

@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Project specific
+# 数据库文件
+memories/
+*.db
+*.sqlite
+*.sqlite3
+
+# 知识库向量数据库文件夹（UUID命名的文件夹）
+# 这些是上传文件后生成的向量数据库文件夹
+/[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*-[0-9a-f]*/
+
+# 测试文件（可选，如果不想上传测试PDF）
+# test.pdf
+
+# 日志文件
+*.log
+logs/
+
+# Redis 数据文件（如果有本地Redis数据）
+dump.rdb
+*.rdb
+
+# 配置文件中的敏感信息（保留文件但忽略内容中的密钥）
+# config.py 文件本身会被跟踪，但实际使用时需要修改其中的API密钥
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 上传的文件（如果不想上传用户上传的PDF文件）
+# uploads/
+
